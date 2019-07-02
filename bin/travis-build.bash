@@ -101,7 +101,7 @@ paster spatial initdb -c ../ckan/test-core.ini
 cd -
 
 echo "Installing ckanext-multilang and its requirements..."
-git clone https://github.com/geosolutions-it/ckanext-multilang
+git clone https://github.com/italia/ckanext-multilang
 cd ckanext-multilang
 python setup.py develop
 paster multilangdb initdb -c ../ckan/test-core.ini
