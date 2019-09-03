@@ -62,13 +62,12 @@ class DCATAPITCommands(CkanCommand):
        FORMAT is rdflib format name (xml, turtle etc)
        NAME is the short-name of the vocabulary (only allowed languages, eu_themes, places, frequencies, regions, licenses, subthemes)
        Where the corresponding rdf are:
-          languages   -> http://publications.europa.eu/mdr/resource/authority/language/skos/languages-skos.rdf
-          eu_themes   -> http://publications.europa.eu/mdr/resource/authority/data-theme/skos/data-theme-skos.rdf
-          places      -> http://publications.europa.eu/mdr/resource/authority/place/skos/places-skos.rdf
-          frequencies -> http://publications.europa.eu/mdr/resource/authority/frequency/skos/frequencies-skos.rdf
+          languages   -> http://publications.europa.eu/resource/distribution/language/20180926-0/rdf/skos_core/languages-skos.rdf
+          eu_themes   -> http://publications.europa.eu/resource/distribution/data-theme/20160921-0/rdf/skos_core/data-theme-skos.rdf
+          places      -> http://publications.europa.eu/resource/distribution/place/20181212-0/rdf/skos_core/places-skos.rdf
+          frequencies -> http://publications.europa.eu/resource/distribution/frequency/20181212-0/rdf/skos_core/frequencies-skos.rdf
           regions     -> https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/regions/regions.rdf
-
-          filetype -> http://publications.europa.eu/mdr/resource/authority/file-type/skos/filetypes-skos.rdf
+          filetype    -> http://publications.europa.eu/resource/distribution/frequency/20181212-0/rdf/skos_core/frequencies-skos.rdf
        PATH_TO_INI_FILE is the path to the Ckan configuration file
 
      If you use subthemes, additional argument is required, path to EUROVOC rdf file:
